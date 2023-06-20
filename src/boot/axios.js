@@ -8,7 +8,7 @@ import axios from 'axios'
 // "export default () => {}" function below (which runs individually
 // for each client)
 // UBAH IPDISINI
-const baseURL = 'http://localhost:5050'
+const baseURL = 'https://gapari-gold.vercel.app'
 const api = axios.create({ baseURL: baseURL })
 
 export default boot(({ app, router }) => {
